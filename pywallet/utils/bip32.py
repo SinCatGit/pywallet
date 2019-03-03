@@ -643,6 +643,8 @@ class Wallet(object):
             response = BitcoinTestNet
         elif network == "bitcoin" or network == "BTC":
             response = BitcoinMainNet
+        elif network == "bcycoin" or network == "BCY":
+            response = BlockCypherTestNet
         elif network == "dogecoin" or network == "DOGE":
             response = DogecoinMainNet
         elif network == "dogecoin_testnet" or network == "DOGETEST":

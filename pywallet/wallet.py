@@ -67,6 +67,8 @@ def get_network(network='btctest'):
         return BitcoinTestNet
     elif network == "bitcoin" or network == "btc":
         return BitcoinMainNet
+    elif network == "bcycoin" or network == "bcy":
+        return BlockCypherTestNet
     elif network == "dogecoin" or network == "doge":
         return DogecoinMainNet
     elif network == "dogecoin_testnet" or network == "dogetest":

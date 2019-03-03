@@ -215,7 +215,7 @@ class BlockCypherTestNet(object):
     From http://dev.blockcypher.com/#testing
     """
     NAME = "BlockCypher Test Net"
-    COIN = "BlockCypher"
+    COIN = "BCY"
     SCRIPT_ADDRESS = 0x1f  # int(0x1f) = 31
     PUBKEY_ADDRESS = 0x1b  # int(0x1b) = 27  # Used to create payment addresses
     SECRET_KEY = 0x49      # int(0x49) = 73  # Used for WIF format
